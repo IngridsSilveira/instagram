@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(243, 243, 243);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 900px;
+    height: 530px;
+}
+#celularDiv {
+    width: 600px;
+    margin-right: -125px;
+}
+#celularDiv img {
+    width: 100%;
+    height: auto;
+}
+#login {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#logo {
+    width: 160px;
+    margin: 20px auto;
+}
+#perfil {
+    width: 70px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+}
+#button {
+    text-decoration: none;
+    background: #0095f6;
+    color: white;
+    font-size: 14px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+#inscreva {
+    width: 400px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#inscreva div {
+    display: flex;
+    flex-direction: row;
+}
+#inscreva a {
+    margin: 0 5px;
+}
+#inscreva p {
+    color:rgb(160, 160, 160);
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#info div {
+    margin-top: 10px;
+}
+#info img {
+    width: 150px;
+    margin: 0 6px;
+    cursor: pointer;
+}
+#info p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.links {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 14px;
+    margin-top: 10px;
+}
+footer {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+}
+footer a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    body {
+        background: white;
+    }
+    .container {
+    min-width: 80%;
+    height: auto;
+    }
+    #celularDiv {
+        display: none;
+    }
+}
